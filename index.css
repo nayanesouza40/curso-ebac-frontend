@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+section {
+    width:1000px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    margin-top: 20px;;
+}
+
+/* cabeçalho */
+nav {
+    width:100%;
+    height:60px;
+    background-color: #f4508a;
+}
+
+#nav {
+    width:1000px;
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#menu li {
+    text-decoration: none;
+    display: inline;
+    margin:0 10px;
+}
+
+#menu li a:active, 
+#menu li a:link, 
+#menu li a:visited{
+    text-decoration: none;
+    color:#fff;
+}
+
+#menu li a:hover {
+    text-decoration:overline;
+    color:#ffbed5;
+}
+
+h1#titulo a {
+    text-decoration: none;
+    color:#fff;
+}
+
+h1#titulo a:hover {
+    text-decoration: none;
+    color:#ffbed5;
+}
+
+/* seção sobre */
+
+#sobre {
+    display: flex;
+}
+
+#texto {
+    padding-right: 25px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+#imagem {
+    width: 50%;
+}
+
+#col1 {
+    width:50%;
+}
+
+h2 {
+    margin:40px 0 30px;
+}
+
+#icon img {
+    width: 25px;
+    margin:20px 5px;
+}
+
+/* contato */
+
+h3 {
+    color:#000;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+form h3 {
+    color:#fff;
+}
+
+#contato {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+#form {
+    background-color: #f4508a;
+    width: 300px;
+}
+
+form {
+    margin:20px;
+    justify-content: center;
+}
+
+form input {
+    width:238px;
+    padding: 8px 10px;
+    margin-top:10px;
+}
+
+form textarea {
+    width:238px;
+    height:100px;
+    padding: 8px 10px;
+    margin-top: 10px;
+}
+
+form button {
+    text-align: center;
+    background-color: #f4508a;
+    color: #fff;
+    padding: 8px 10px;
+    border: solid 1px #ffbed5;
+    margin-top:10px;
+}
