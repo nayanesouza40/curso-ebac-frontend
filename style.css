@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #BADADF;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;   
+    margin:0 auto; 
+    background-color: #90CBD0;
+    padding: 30px;
+}
+
+/*formulário*/
+#form {
+    margin: 20px 0;
+}
+
+#form h3 {
+    text-align:center;
+}
+
+#form-contato {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+#form-contato input {
+    padding: 10px 15px;
+    border: solid 1px #03989E;
+
+}
+
+#form-contato input[type='submit'] {
+    background-color: #03989E;
+    color: #fff;
+}
+
+#nome, #tel {
+    width: 40%;
+    margin-right: 10px;
+}
+
+/*tabela*/
+#container-contatos h3{
+    margin: 20px 0;
+    padding-top: 25px;
+}
+
+#tabela-contatos {
+    width: 100%;
+
+}
+
+#tabela-contatos th {
+    padding: 10px 15px;
+    background-color: #5EB8BE;
+    width: 50%;
+    font-weight: normal;
+}
+
+#tabela-contatos tr:nth-child(even) {
+    background-color: #5EB8BE;
+}
+
+#tabela-contatos tr:nth-child(odd) {
+    background-color: #38ABB1;
+}
+
+#tabela-contatos td {
+    padding: 10px 15px;
+    margin: 0;
+}
+
+#erro {
+    color: red;
+    display: none;
+    position:absolute;
+    padding-top: 8px;
+    text-align: center;
+    font-size: smaller;
+}

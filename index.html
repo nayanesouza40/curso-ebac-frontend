@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+    <title>Lista de Contatos</title>
+</head>
+<body>
+    <div class="container">
+        <!--formulário para cadatrar novo, vai aparecer quando for chamado pela função-->
+        <div id="form">
+            <h3>
+                adicionar novo contato
+            </h3>
+            <form id="form-contato">
+                <input type="text" name="nome" id="nome" placeholder="nome"/>
+                <input type="tel" name="tel" id="tel" placeholder="telefone"/>
+                <input type="submit" value="Adicionar">
+            </form>
+            <span id="erro">digite um válido</span>
+        </div>
+        <!--lista de todos os contatos, vai desaparecer quando chamada uma função-->
+        <div id="container-contatos">
+            <h3>
+                lista de contatos
+            </h3>
+            <!--div que vai ser substituida pelo js quando n tiver contatos aqui-->
+            <div id="lista-contatos">
+                <table id="tabela-contatos">
+                    <thead>
+                        <tr>
+                            <th>
+                                Nome
+                            </th>
+                            <th>
+                                Telefone
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="contatos">
+                        <!--div que vai ser criado por js-->
+                            
+
+                    </tbody>
+
+                </table>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
