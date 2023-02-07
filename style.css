@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    height: inherit;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: lightblue;
+    width: 50%;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border-radius: .4rem;
+    margin-top: 10%;
+}
+
+.form > div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+}
+
+.form > div > label {
+    margin-bottom: .4rem;
+}
+
+.form > div > input {
+    padding: .4rem;
+}
